@@ -1,0 +1,88 @@
+.App {
+  width: fit-content;
+  height: fit-content;
+  margin-inline: auto;
+  padding: 32px;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: #393E46;
+}
+
+.h1 {
+  color: #EEEEEE;
+}
+
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 406px;
+  gap: 8px;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.li {
+  width: fit-content;
+  padding: 16px;
+  margin: 0;
+  background-color: #00ADB5;
+  border-radius: 8px;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.li:hover {
+  color: #EEEEEE;
+  background-color: #F64740;
+}
+
+.li:active {
+  background-color: #EEEEEE;
+}
+
+.i {
+  color: #EEEEEE;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  background-color: #00ADB5;
+  border-radius: 8px;
+}
+
+.input {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+.submit {
+  padding: 8px;
+  background-color: #4ade80;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.submit:hover {
+  filter: brightness(110%);
+}
